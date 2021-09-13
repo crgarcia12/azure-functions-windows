@@ -1,5 +1,4 @@
 # escape=`
-# FROM mcr.microsoft.com/azure-functions/dotnet:3.0-nanoserver-1809 AS installer-env
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS installer-env
 
 COPY . /src/dotnet-function-app
